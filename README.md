@@ -1,4 +1,4 @@
-# sketch-group-project
+# Sketch-group-project
 
 1. # First page
 
