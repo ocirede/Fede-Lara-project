@@ -58,73 +58,92 @@ main {
   overflow: hidden;
 }
 
+a {
+  color: #121212;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .pencil {
   position: relative;
   background-image: url(./random-images/pencil-g923b44e3b_1280.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  width: 20rem;
-  height: 22.5rem;
+  width: 100%;
+  height: 50vh;
   top: 30%;
-  left: 50%;
+  left: 42%;
   transform: rotate(135deg);
   box-shadow: 30px 30px 45px -27px beige;
+  overflow: hidden;
 }
 
-button {
+.lined-thin {
   position: absolute;
-  left: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
   top: 65%;
-  width: 7rem;
-  height: 4rem;
+  width: 35vw;
+  height: 9vh;
   align-self: center;
-  background: transparent;
+  background-color: beige;
   padding: 1rem 1rem;
   margin: 0 1rem;
-  /* transition: all 0.5s ease; */
-  color: beige;
-  font-size: 0.75rem;
   letter-spacing: 1px;
-  outline: none;
-  box-shadow: 10px 25px 22px -15px beige;
+  box-shadow: 30px 30px 45px -27px beige;
   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border: 1px solid #121212;
   transform: rotate(225deg);
 }
 
-button i {
-  font-size: 2rem;
-  color: beige;
-}
-
-.fix-the-bug {
+.Courses-offer {
   position: absolute;
-  top: 28%;
-  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 23.5%;
+  left: 15%;
+  width: 55vw;
+  height: 9vh;
+  background-color: beige;
+  box-shadow: 30px 30px 45px -37px beige;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border: 1px solid #121212;
+
+  /* text-shadow: 1px 2px 7px #121212; */
   transform: rotate(-45deg);
-  color: beige;
-  text-shadow: 3px 3px 7px beige;
 }
 
-.Sketch-mobile-version {
+.price-list {
   position: absolute;
-  top: 65%;
-  left: 5%;
-  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 70%;
+  left: 10%;
+  width: 45vw;
+  height: 9vh;
+  background-color: beige;
+  box-shadow: 30px 30px 45px -33px beige;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border: 1px solid #121212;
+
+  /* text-shadow: 1px 2px 7px #121212; */
   transform: rotate(45deg);
-  text-shadow: 3px 3px 7px beige;
-  color: beige;
 }
 
 .paper-teachers {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 13vh;
-  position: absolute;
-  bottom: -18px;
-  left: 0;
   width: 100%;
+  height: 14vh;
+  position: absolute;
+  bottom: -25px;
   background-image: url(./random-images/41f6c04c5eb3495ac089e054da19c668.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -135,8 +154,8 @@ button i {
 
 .teachers {
   align-self: center;
-  font-size: 3rem;
+  font-size: 2rem;
+  font-weight: bold;
   margin-left: 70px;
-  text-shadow: 3px 3px 7px black;
-  color: #121212;
+  /* text-shadow: 3px 3px 7px black; */
 }
