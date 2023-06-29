@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+}
+
+@font-face {
+  font-family: Sketch2;
+  src: url(./Fonts/DIEDIEDI.TTF);
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #121212;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 12vh;
+  font-family: Pencil;
+  background-color: beige;
+  padding: 0.5rem;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border: solid #121212;
+  box-shadow: 20px 20px 70px -20px beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.5s ease;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #121212;
+  font-weight: bold;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.pencil {
+  position: relative;
+  background-image: url(./random-images/pencil-g923b44e3b_1280.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 20rem;
+  height: 22.5rem;
+  top: 30%;
+  left: 50%;
+  transform: rotate(135deg);
+  box-shadow: 30px 30px 45px -27px beige;
+}
+
+button {
+  position: absolute;
+  left: 45%;
+  top: 65%;
+  width: 7rem;
+  height: 4rem;
+  align-self: center;
+  background: transparent;
+  padding: 1rem 1rem;
+  margin: 0 1rem;
+  /* transition: all 0.5s ease; */
+  color: beige;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  outline: none;
+  box-shadow: 10px 25px 22px -15px beige;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  transform: rotate(225deg);
+}
+
+button i {
+  font-size: 2rem;
+  color: beige;
+}
+
+.fix-the-bug {
+  position: absolute;
+  top: 28%;
+  font-size: 3rem;
+  transform: rotate(-45deg);
+  color: beige;
+  text-shadow: 3px 3px 7px beige;
+}
+
+.Sketch-mobile-version {
+  position: absolute;
+  top: 65%;
+  left: 5%;
+  font-size: 3rem;
+  transform: rotate(45deg);
+  text-shadow: 3px 3px 7px beige;
+  color: beige;
+}
+
+.paper-teachers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 13vh;
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+  width: 100%;
+  background-image: url(./random-images/41f6c04c5eb3495ac089e054da19c668.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  object-fit: cover;
+  box-shadow: 40px 40px 90px -10px beige;
+}
+
+.teachers {
+  align-self: center;
+  font-size: 3rem;
+  margin-left: 70px;
+  text-shadow: 3px 3px 7px black;
+  color: #121212;
+}
