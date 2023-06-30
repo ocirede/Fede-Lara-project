@@ -10,11 +10,6 @@
   font-size: 15px;
 }
 
-@font-face {
-  font-family: Sketch2;
-  src: url(./Fonts/DIEDIEDI.TTF);
-}
-
 body {
   width: 100%;
   height: 100%;
@@ -88,16 +83,17 @@ a {
   left: 50%;
   top: 65%;
   width: 35vw;
-  height: 9vh;
+  height: 7vh;
   align-self: center;
   background-color: beige;
   padding: 1rem 1rem;
   margin: 0 1rem;
   letter-spacing: 1px;
-  box-shadow: 30px 30px 45px -27px beige;
+  box-shadow: -8px 8px 14px -2px beige;
   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
   border: 1px solid #121212;
-  transform: rotate(225deg);
+  transform: rotate(237deg);
+  overflow: hidden;
 }
 
 .Courses-offer {
@@ -105,17 +101,16 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  top: 23.5%;
-  left: 15%;
+  top: 25%;
+  left: 10%;
   width: 55vw;
-  height: 9vh;
+  height: 7vh;
   background-color: beige;
-  box-shadow: 30px 30px 45px -37px beige;
+  box-shadow: 11px 6px 14px 0px beige;
   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
   border: 1px solid #121212;
-
-  /* text-shadow: 1px 2px 7px #121212; */
-  transform: rotate(-45deg);
+  overflow: hidden;
+  transform: rotate(-37deg);
 }
 
 .price-list {
@@ -126,14 +121,13 @@ a {
   top: 70%;
   left: 10%;
   width: 45vw;
-  height: 9vh;
+  height: 7vh;
   background-color: beige;
-  box-shadow: 30px 30px 45px -33px beige;
+  box-shadow: -8px 8px 14px -2px beige;
   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
   border: 1px solid #121212;
-
-  /* text-shadow: 1px 2px 7px #121212; */
-  transform: rotate(45deg);
+  transform: rotate(40deg);
+  overflow: hidden;
 }
 
 .paper-teachers {
@@ -143,19 +137,19 @@ a {
   width: 100%;
   height: 14vh;
   position: absolute;
+  left: 25px;
   bottom: -25px;
   background-image: url(./random-images/41f6c04c5eb3495ac089e054da19c668.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   object-fit: cover;
+  overflow: hidden;
   box-shadow: 40px 40px 90px -10px beige;
 }
 
 .teachers {
-  align-self: center;
   font-size: 2rem;
   font-weight: bold;
   margin-left: 70px;
-  /* text-shadow: 3px 3px 7px black; */
 }
