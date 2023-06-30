@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #121212;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 12vh;
+  font-family: Pencil;
+  background-color: beige;
+  padding: 0.5rem;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border: solid #121212;
+  box-shadow: 20px 20px 70px -20px beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.5s ease;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #121212;
+  font-weight: bold;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+a {
+  color: #121212;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.pencil {
+  position: relative;
+  background-image: url(./random-images/pencil-g923b44e3b_1280.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  height: 50vh;
+  top: 30%;
+  left: 42%;
+  transform: rotate(135deg);
+  box-shadow: 30px 30px 45px -27px beige;
+  overflow: hidden;
+}
+
+.lined-thin {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  top: 65%;
+  width: 35vw;
+  height: 7vh;
+  align-self: center;
+  background-color: beige;
+  padding: 1rem 1rem;
+  margin: 0 1rem;
+  letter-spacing: 1px;
+  box-shadow: -8px 8px 14px -2px beige;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border: 1px solid #121212;
+  transform: rotate(237deg);
+  overflow: hidden;
+}
+
+.Courses-offer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 25%;
+  left: 10%;
+  width: 55vw;
+  height: 7vh;
+  background-color: beige;
+  box-shadow: 11px 6px 14px 0px beige;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border: 1px solid #121212;
+  overflow: hidden;
+  transform: rotate(-37deg);
+}
+
+.price-list {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 70%;
+  left: 10%;
+  width: 45vw;
+  height: 7vh;
+  background-color: beige;
+  box-shadow: -8px 8px 14px -2px beige;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border: 1px solid #121212;
+  transform: rotate(40deg);
+  overflow: hidden;
+}
+
+.paper-teachers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 14vh;
+  position: absolute;
+  left: 25px;
+  bottom: -25px;
+  background-image: url(./random-images/41f6c04c5eb3495ac089e054da19c668.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  object-fit: cover;
+  overflow: hidden;
+  box-shadow: 40px 40px 90px -10px beige;
+}
+
+.teachers {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 70px;
+}

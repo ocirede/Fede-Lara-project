@@ -74,9 +74,9 @@ h1 {
   > .front,
   > .back {
     display: block;
+    background-size: cover !important;
     color: white;
     width: inherit;
-    background-size: cover !important;
     background-position: center !important;
     height: 350px;
     padding: 1em 2em;
