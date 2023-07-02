@@ -185,14 +185,12 @@
 
       .social-icons {
         display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-       
+        justify-content: center;
         gap: 1.5rem;
+        margin-top: 30px;
       }
 
       .social-icons a {
-        display: inline-block;
         width: 30px;
         height: 30px;
         padding-bottom: 2px;
@@ -405,7 +403,25 @@
     .reason:hover {
       transform: scale(1.05);
       background-color: #ccc;
+
     }
+
+  
+    .footer button{
+    width: 25%;
+      align-self:center;
+      background-color: rgb(233, 233, 197);
+      padding:.55rem .55rem;
+      margin:0 1rem;
+      transition:all .5s ease;
+      color:#41403E;
+      font-size:1rem;
+      letter-spacing:1px;
+      border: 1px solid black;   
+      box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+      border-radius: 275px 25px 255px 15px/15px 245px 35px 255px;
+  }
+
 
       /* Responsive Styles */
       @media only screen and (max-width: 600px) {
@@ -578,7 +594,7 @@
     </section>
     <footer class="footer">
       <div class="footer">
-        <p>&copy; 2023 Web Development Course. All rights reserved.</p>
+        <p>&copy; &nbsp;Codezilla-2023 Web Development Course. All rights reserved.</p>
         <div class="contact-info">
           <p>Email: info@webdevcourse.com</p>
           <p>Phone: +1234567890</p>
@@ -589,5 +605,7 @@
         <a href="#"><i class="fa-brands fa-instagram"></i></a>
       </div>
     </footer>
+    <button class="footer"><a href="http://127.0.0.1:5500/First-page.html">Home</a> </button>
+    <button class="footer"> <a href="http://127.0.0.1:5500/omolara/index.html">Next</a></button>
   </body>
 </html>

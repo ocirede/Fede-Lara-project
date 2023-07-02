@@ -9,6 +9,8 @@
   font-size: 15px;
 }
 body {
+  font-family: "Comfortaa", cursive;
+  font-family: "Work Sans", sans-serif;
   width: 100%;
   height: 100%;
   background-color: #121212;
@@ -66,7 +68,7 @@ main {
   height: 100vh;
   overflow: hidden;
 }
-.triangle {
+/* .triangle {
   position: absolute;
   background-repeat: no-repeat;
   background-position: center;
@@ -79,7 +81,7 @@ main {
   box-shadow: 30px 30px 45px -15px beige;
   overflow: hidden;
   border: transparent;
-}
+} */
 
 .info-menu {
   position: fixed;
@@ -119,10 +121,10 @@ header input:checked ~ .info-menu {
   text-orientation: upright;
   white-space: nowrap;
   opacity: 0;
-  animation: cascade-animation 5.5s ease-in-out infinite;
+  animation: cascade-animation 6s ease-in-out infinite;
   overflow: hidden;
-  top: 15%;
-  left: 55%;
+  top: 25%;
+  left: 12%;
 }
 
 .info2 {
@@ -130,9 +132,9 @@ header input:checked ~ .info-menu {
   writing-mode: vertical-rl;
   text-orientation: upright;
   white-space: nowrap;
-  animation: cascade-animation 5.5s ease-in-out infinite;
+  animation: cascade-animation 6s ease-in-out infinite;
   top: 20%;
-  left: 75%;
+  left: 45%;
 }
 
 .info3 {
@@ -140,9 +142,10 @@ header input:checked ~ .info-menu {
   writing-mode: vertical-rl;
   text-orientation: upright;
   white-space: nowrap;
-  animation: cascade-animation 5.5s ease-in-out infinite;
-  top: 25%;
-  left: 12%;
+  animation: cascade-animation 6s ease-in-out infinite;
+  
+  top: 20%;
+  left: 60%;
 }
 
 .info4 {
@@ -150,7 +153,17 @@ header input:checked ~ .info-menu {
   writing-mode: vertical-rl;
   text-orientation: upright;
   white-space: nowrap;
-  animation: cascade-animation 5.5s ease-in-out infinite;
+  animation: cascade-animation 6s ease-in-out infinite;
+  top: 20%;
+  left: 75%;
+}
+
+.info5 {
+  position: absolute;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  white-space: nowrap;
+  animation: cascade-animation 6s ease-in-out infinite;
   top: 20%;
   left: 30%;
 }
