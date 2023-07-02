@@ -23,17 +23,16 @@
   .about {
     display: flex;
     flex-direction: column;
-    gap: 50px;
     justify-content: center;
+    gap: 50px;
     background-color: rgb(233, 233, 197);
     width: 90%;
-    height: 90vh;
-    margin: auto;
-    margin-top: 5px;
+    height: 85vh;
+    margin: 35px auto auto auto ;
     padding: 5%;  
-    overflow: hidden;
     box-shadow: 30px 30px 60px -40px beige;
-    border-radius: 255px 55px 245px 25px/25px 245px 55px 245px;}
+    border-radius: 255px 55px 245px 25px/25px 245px 55px 245px;
+  }
   
   .about h1 {
     font-size: 2.5rem;

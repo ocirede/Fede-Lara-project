@@ -308,6 +308,7 @@
     padding: 50px;
     gap: 20px;
     z-index: 0;
+    line-height: 1.35;
     transition: right 0.5s ease-in-out;
   }
   
@@ -336,6 +337,8 @@
     padding: 50px;
     gap: 20px;
     z-index: 0;
+    line-height: 1.35;
+
     transition: left 0.5s ease-in-out;
   }
   
@@ -363,6 +366,8 @@
     padding: 50px;
     gap: 20px;
     z-index: 0;
+    line-height: 1.35;
+
     transition: right 0.5s ease-in-out;
   }
   
@@ -390,6 +395,8 @@
     padding: 50px;
     gap: 20px;
     z-index: 0;
+    line-height: 1.35;
+
     transition: left 0.5s ease-in-out;
   }
   
@@ -417,6 +424,8 @@
     padding: 50px;
     gap: 20px;
     z-index: 0;
+    line-height: 1.35;
+
     transition: right 0.5s ease-in-out;
   }
   
@@ -444,6 +453,8 @@
     padding: 50px;
     gap: 20px;
     z-index: 0;
+    line-height: 1.35;
+
     transition: left 0.5s ease-in-out;
   }
   
@@ -471,6 +482,8 @@
     padding: 50px;
     gap: 20px;
     z-index: 0;
+    line-height: 1.35;
+
     transition: right 0.5s ease-in-out;
   }
   
@@ -498,6 +511,8 @@
     padding: 50px;
     gap: 20px;
     z-index: 0;
+    line-height: 1.35;
+
     transition: left 0.5s ease-in-out;
   }
   
@@ -525,6 +540,8 @@
     padding: 50px;
     gap: 20px;
     z-index: 0;
+    line-height: 1.35;
+
     transition: right 0.5s ease-in-out;
   }
   
@@ -552,6 +569,8 @@
     padding: 50px;
     gap: 20px;
     z-index: 0;
+    line-height: 1.35;
+
     transition: left 0.5s ease-in-out;
   }
   
@@ -608,6 +627,8 @@
       padding: 50px;
       gap: 20px;
       z-index: 0;
+      line-height: 1.35;
+
       transition:left 0.5s ease-in-out;
     }
     
@@ -635,6 +656,8 @@
       padding: 50px;
       gap: 20px;
       z-index: 0;
+      line-height: 1.35;
+
       transition:right 0.5s ease-in-out;
     }
     
@@ -716,7 +739,11 @@
     color: #121212;
   }
   
-  
+  @media screen and (max-width:280px) {
+    .teacher1, .teacher2, .teacher3, .teacher4, .teacher5, .teacher6, .teacher7, .teacher8, .teacher9, .teacher10, .teacher11, .teacher12, .teacher13{
+      line-height: 1;
+    }
+  }
   
   @media screen and (max-width: 375px){
     h2, p{

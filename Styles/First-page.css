@@ -64,25 +64,34 @@ header input:checked ~ label .fa-x {
 }
 
 main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100vh;
   overflow: hidden;
+  z-index: 0;
 }
-/* .triangle {
-  position: absolute;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  width: 100%;
-  height: 30vh;
-  top: 45%;
-  left: -50%;
-  transform: rotate(315deg);
-  box-shadow: 30px 30px 45px -15px beige;
-  overflow: hidden;
-  border: transparent;
-} */
+.triangle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+ color: white;
+  width: 85%;
+  padding: 15px;
+  height: 70vh;
+  margin: auto;
+  box-shadow: 1px 5px 16px 0px beige;
+ border-radius: 255px 55px 265px 25px/55px 25px 55px 25px;
 
+}
+.triangle p{
+  line-height: 1.35;
+  font-size: .70rem;
+
+}
 .info-menu {
   position: fixed;
   top: 5.5rem;
@@ -90,12 +99,10 @@ main {
   padding-left: 15px;
   padding-bottom: 20px;
   width: 100%;
-  height: 85vh;
-  background: rgb(233, 233, 191);
-  z-index: 9;
+  height: 85%;
+  background-color: rgb(233, 233, 197);
   gap: 10px;
   transition: left 0.5s ease-in-out;
-  z-index: 1;
   border-radius: 255px 55px 245px 25px/25px 245px 55px 245px;
   border: solid #121212;
 }
@@ -179,7 +186,7 @@ header input:checked ~ .info-menu {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  z-index: 3;
+  z-index: 10;
 }
 
 footer {
@@ -210,5 +217,11 @@ footer {
   100% {
     transform: translateY(100%);
     opacity: 0;
+  }
+}
+
+@media screen and (max-width:280px) {
+  .triangle p{
+    font-size: .55rem;
   }
 }
