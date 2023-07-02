@@ -1,766 +1,774 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  :root {
-    width: 100%;
-    height: 100%;
-    font-size: 15px;
-  }
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    width: 100%;
-    height: 100%;
-  
-    padding: 20px;
-    background-color: rgb(233, 233, 197);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-  
-  .header-teachers {
-    position: fixed;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 5rem;
-    background-color: rgb(233, 233, 197);
-    padding: 0.5rem;
-    border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
-    border: solid #121212;
-    box-shadow: 20px 20px 70px -20px beige;
-    gap: 1rem;
-  }
-  
-  .logo1 {
-    width: 4rem;
-    height: 4rem;
-    border-radius: 50%;
-  }
-  main {
-    position: relative;
-    width: 100%;
-    height: 85%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    gap: 15px;
-    padding-top: 30px;
-    overflow: hidden;
-  }
-  
-  .Alkis {
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-image: url(../Pictures/Alkis.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    grid-area: 1/1/2/2;
-    transition: transform 0.7s ease;
-  }
-  
-  .Alkis:hover {
-    cursor: pointer;
-    transition: transform 0.7s ease;
-    transform: scale(1.1);
-    overflow: hidden;
-  }
-  .Ibrahim {
-    width: 100%;
-    height: 100%;
-    background-image: url(../Pictures/Ibrahim.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    grid-area: 1/3/2/4;
-    transition: transform 0.7s ease;
-  }
-  
-  .Ibrahim:hover {
-    cursor: pointer;
-    transition: transform 0.7s ease;
-    transform: scale(1.1);
-    overflow: hidden;
-  }
-  
-  .Tyhe {
-    width: 100%;
-    height: 100%;
-    background-image: url(../Pictures/Tyhe.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    grid-area: 2/1/3/2;
-    transition: transform 0.7s ease;
-  }
-  .Tyhe:hover {
-    cursor: pointer;
-    transition: transform 0.7s ease;
-    transform: scale(1.1);
-    overflow: hidden;
-  }
-  
-  .Kostas {
-    width: 100%;
-    height: 100%;
-    background-image: url(../Pictures/Kostas.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    grid-area: 2/2/3/3;
-    transition: transform 0.7s ease;
-  }
-  
-  .Kostas:hover {
-    cursor: pointer;
-    transition: transform 0.7s ease;
-    transform: scale(1.1);
-    overflow: hidden;
-  }
-  
-  .Issa {
-    width: 100%;
-    height: 100%;
-    background-image: url(../Pictures/Issa.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    grid-area: 2/3/3/4;
-    transition: transform 0.7s ease;
-  }
-  
-  .Issa:hover {
-    cursor: pointer;
-    transition: transform 0.7s ease;
-    transform: scale(1.1);
-    overflow: hidden;
-  }
-  
-  .Ilker {
-    width: 100%;
-    height: 100%;
-    background-image: url(../Pictures/Ilker.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    grid-area: 3/1/4/2;
-    transition: transform 0.7s ease;
-  }
-  
-  .Ilker:hover {
-    cursor: pointer;
-    transition: transform 0.7s ease;
-    transform: scale(1.1);
-    overflow: hidden;
-  }
-  
-  .Mohammed {
-    width: 100%;
-    height: 100%;
-    background-image: url(../Pictures/Mohammed1.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    grid-area: 3/2/4/3;
-    transition: transform 0.7s ease;
-  }
-  
-  .Mohammed:hover {
-    cursor: pointer;
-    transition: transform 0.7s ease;
-    transform: scale(1.1);
-    overflow: hidden;
-  }
-  
-  .Federico {
-    width: 100%;
-    height: 100%;
-    background-image: url(../Pictures/Federico2.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    grid-area: 3/3/4/4;
-    object-fit: cover;
-    transition: transform 0.7s ease;
-  }
-  .Federico:hover {
-    cursor: pointer;
-    transition: transform 0.7s ease;
-    transform: scale(1.1);
-    overflow: hidden;
-  }
-  .Feras {
-    width: 100%;
-    height: 100%;
-    background-image: url(../Pictures/Feras.jpeg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    grid-area: 4/1/5/2;
-    transition: transform 0.7s ease;
-  }
-  
-  .Feras:hover {
-    cursor: pointer;
-    transition: transform 0.7s ease;
-    transform: scale(1.1);
-    overflow: hidden;
-  }
-  
-  .Jamilya {
-    width: 100%;
-    height: 100%;
-    background-image: url(../Pictures/Jamiya.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    grid-area: 4/2/5/3;
-    transition: transform 0.7s ease;
-  }
-  
-  .Jamilya:hover {
-    cursor: pointer;
-    transition: transform 0.7s ease;
-    transform: scale(1.1);
-    overflow: hidden;
-  }
-  
-  .Lara {
-    width: 100%;
-    height: 100%;
-    background-image: url(../Pictures/Lara.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    grid-area: 4/3/5/4;
-    transition: transform 0.7s ease;
-  }
-  
-  .Lara:hover {
-    cursor: pointer;
-    transition: transform 0.7s ease;
-    transform: scale(1.1);
-    overflow: hidden;
-  }
-  
-  .Garen {
-    width: 100%;
-    height: 100%;
-    background-image: url(../Pictures/Garen.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    grid-area: 5/1/6/2;
-    transition: transform 0.7s ease;
-  }
-  
-  .Garen:hover {
-    cursor: pointer;
-    transition: transform 0.7s ease;
-    transform: scale(1.1);
-    overflow: hidden;
-  }
-  
-  .Ghassan {
-    width: 100%;
-    height: 100%;
-    background-image: url(../Pictures/Ghassan.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    grid-area: 5/3/6/4;
-    transition: transform 0.7s ease;
-  }
-  
-  .Ghassan:hover {
-    cursor: pointer;
-    transition: transform 0.7s ease;
-    transform: scale(1.1);
-    overflow: hidden;
-  }
-  
-  .teacher1 h2::first-letter {
-    text-transform: uppercase;
-    font-size: 3rem;
-  }
-  
-  .teacher1 {
-    background-color: #121212;
-    border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
-    color: white;
-    font-size: 1.2rem;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 5rem;
-    right: -100vw;
-    padding: 50px;
-    gap: 20px;
-    z-index: 0;
-    line-height: 1.35;
-    transition: right 0.5s ease-in-out;
-  }
-  
-  #text-description:checked ~ .teacher1 {
-    right: 0;
-  }
-  
-  
-  .teacher2 h2::first-letter {
-    text-transform: uppercase;
-    font-size: 3rem;
-  }
-  
-  .teacher2 {
-    background-color: #121212;
-    border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
-    color: white;
-    font-size: 1.2rem;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 5rem;
-    left: -100vw;
-    padding: 50px;
-    gap: 20px;
-    z-index: 0;
-    line-height: 1.35;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
 
-    transition: left 0.5s ease-in-out;
-  }
-  
-  #text-description1:checked ~ .teacher2 {
-    left: 0;
-  }
-  
-  .teacher3 h2::first-letter {
-    text-transform: uppercase;
-    font-size: 3rem;
-  }
-  
-  .teacher3 {
-    background-color: #121212;
-    border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
-    color: white;
-    font-size: 1.2rem;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 5rem;
-    right: -200vw;
-    padding: 50px;
-    gap: 20px;
-    z-index: 0;
-    line-height: 1.35;
+  padding: 20px;
+  background-color: rgb(233, 233, 197);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
-    transition: right 0.5s ease-in-out;
-  }
-  
-  #text-description2:checked ~ .teacher3 {
-    right: 0;
-  }
-  
-  .teacher4 h2::first-letter {
-    text-transform: uppercase;
-    font-size: 3rem;
-  }
-  
-  .teacher4 {
-    background-color: #121212;
-    border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
-    color: white;
-    font-size: 1.2rem;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 5rem;
-    left: -200vw;
-    padding: 50px;
-    gap: 20px;
-    z-index: 0;
-    line-height: 1.35;
+.header-teachers {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 5rem;
+  background-color: rgb(233, 233, 197);
+  padding: 0.5rem;
+  border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
+  border: solid #121212;
+  box-shadow: 20px 20px 70px -20px beige;
+  gap: 1rem;
+}
 
-    transition: left 0.5s ease-in-out;
-  }
-  
-  #text-description3:checked ~ .teacher4 {
-    left: 0;
-  }
-  
-  .teacher5 h2::first-letter {
-    text-transform: uppercase;
-    font-size: 3rem;
-  }
-  
-  .teacher5 {
-    background-color: #121212;
-    border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
-    color: white;
-    font-size: 1.2rem;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 5rem;
-    right: -300vw;
-    padding: 50px;
-    gap: 20px;
-    z-index: 0;
-    line-height: 1.35;
+.logo1 {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+main {
+  position: relative;
+  width: 100%;
+  height: 85%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 15px;
+  padding-top: 30px;
+  overflow: hidden;
+}
 
-    transition: right 0.5s ease-in-out;
-  }
-  
-  #text-description4:checked ~ .teacher5 {
-    right: 0;
-  }
-  
-  .teacher6 h2::first-letter {
-    text-transform: uppercase;
-    font-size: 3rem;
-  }
-  
-  .teacher6 {
-    background-color: #121212;
-    border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
-    color: white;
-    font-size: 1.2rem;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 5rem;
-    left: -300vw;
-    padding: 50px;
-    gap: 20px;
-    z-index: 0;
-    line-height: 1.35;
+.Alkis {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url(../Pictures/Alkis.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  grid-area: 1/1/2/2;
+  transition: transform 0.7s ease;
+}
 
-    transition: left 0.5s ease-in-out;
-  }
-  
-  #text-description5:checked ~ .teacher6 {
-    left: 0;
-  }
-  
-  .teacher7 h2::first-letter {
-    text-transform: uppercase;
-    font-size: 3rem;
-  }
-  
-  .teacher7 {
-    background-color: #121212;
-    border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
-    color: white;
-    font-size: 1.2rem;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 5rem;
-    right: -400vw;
-    padding: 50px;
-    gap: 20px;
-    z-index: 0;
-    line-height: 1.35;
+.Alkis:hover {
+  cursor: pointer;
+  transition: transform 0.7s ease;
+  transform: scale(1.1);
+  overflow: hidden;
+}
+.Ibrahim {
+  width: 100%;
+  height: 100%;
+  background-image: url(../Pictures/Ibrahim.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  grid-area: 1/3/2/4;
+  transition: transform 0.7s ease;
+}
 
-    transition: right 0.5s ease-in-out;
-  }
-  
-  #text-description6:checked ~ .teacher7 {
-    right: 0;
-  }
-  
-  .teacher8 h2::first-letter {
-    text-transform: uppercase;
-    font-size: 3rem;
-  }
-  
-  .teacher8 {
-    background-color: #121212;
-    border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
-    color: white;
-    font-size: 1.2rem;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 5rem;
-    left: -400vw;
-    padding: 50px;
-    gap: 20px;
-    z-index: 0;
-    line-height: 1.35;
+.Ibrahim:hover {
+  cursor: pointer;
+  transition: transform 0.7s ease;
+  transform: scale(1.1);
+  overflow: hidden;
+}
 
-    transition: left 0.5s ease-in-out;
-  }
-  
-  #text-description7:checked ~ .teacher8 {
-    left: 0;
-  }
-  
-  .teacher9 h2::first-letter {
-    text-transform: uppercase;
-    font-size: 3rem;
-  }
-  
-  .teacher9 {
-    background-color: #121212;
-    border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
-    color: white;
-    font-size: 1.2rem;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 5rem;
-    right: -500vw;
-    padding: 50px;
-    gap: 20px;
-    z-index: 0;
-    line-height: 1.35;
+.Tyhe {
+  width: 100%;
+  height: 100%;
+  background-image: url(../Pictures/Tyhe.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  grid-area: 2/1/3/2;
+  transition: transform 0.7s ease;
+}
+.Tyhe:hover {
+  cursor: pointer;
+  transition: transform 0.7s ease;
+  transform: scale(1.1);
+  overflow: hidden;
+}
 
-    transition: right 0.5s ease-in-out;
-  }
-  
-  #text-description8:checked ~ .teacher9 {
-    right: 0;
-  }
-  
-  .teacher10 h2::first-letter {
-    text-transform: uppercase;
-    font-size: 3rem;
-  }
-  
-  .teacher10 {
-    background-color: #121212;
-    border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
-    color: white;
-    font-size: 1.2rem;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 5rem;
-    left: -500vw;
-    padding: 50px;
-    gap: 20px;
-    z-index: 0;
-    line-height: 1.35;
+.Kostas {
+  width: 100%;
+  height: 100%;
+  background-image: url(../Pictures/Kostas.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  grid-area: 2/2/3/3;
+  transition: transform 0.7s ease;
+}
 
-    transition: left 0.5s ease-in-out;
-  }
-  
-  #text-description9:checked ~ .teacher10 {
-    left: 0;
-  }
-  
-  .teacher11 h2::first-letter {
-      text-transform: uppercase;
-      font-size: 3rem;
-    }
-    
-    .teacher11 {
-      background-color: #121212;
-      border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
-      color: white;
-      font-size: 1.2rem;
-      height: 100vh;
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      position: fixed;
-      top: 5rem;
-     right: -600vw;
-      padding: 50px;
-      gap: 20px;
-      z-index: 0;
-      transition:right 0.5s ease-in-out;
-    }
-    
-    #text-description10:checked ~ .teacher11 {
-      right: 0;
-    }
-  
-  
-  
-    .teacher12 h2::first-letter {
-      text-transform: uppercase;
-      font-size: 3rem;
-    }
-    
-    .teacher12{
-      background-color: #121212;
-      border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
-      color: white;
-      font-size: 1.2rem;
-      height: 100vh;
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      position: fixed;
-      top: 5rem;
-     left: -600vw;
-      padding: 50px;
-      gap: 20px;
-      z-index: 0;
-      line-height: 1.35;
+.Kostas:hover {
+  cursor: pointer;
+  transition: transform 0.7s ease;
+  transform: scale(1.1);
+  overflow: hidden;
+}
 
-      transition:left 0.5s ease-in-out;
-    }
-    
-    #text-description11:checked ~ .teacher12 {
-      left: 0;
-    }
-  
-    .teacher13 h2::first-letter {
-      text-transform: uppercase;
-      font-size: 3rem;
-    }
-    
-    .teacher13{
-      background-color: #121212;
-      border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
-      color: white;
-      font-size: 1.2rem;
-      height: 100vh;
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      position: fixed;
-      top: 5rem;
-      right: -700vw;
-      padding: 50px;
-      gap: 20px;
-      z-index: 0;
-      line-height: 1.35;
+.Issa {
+  width: 100%;
+  height: 100%;
+  background-image: url(../Pictures/Issa.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  grid-area: 2/3/3/4;
+  transition: transform 0.7s ease;
+}
 
-      transition:right 0.5s ease-in-out;
-    }
-    
-    #text-description12:checked ~ .teacher13 {
-     right: 0;
-    }
-  
-  
-  
-  
-  #text-description,
-  #text-description1,
-  #text-description2,
-  #text-description3,
-  #text-description4,
-  #text-description5,
-  #text-description6,
-  #text-description7,
-  #text-description8,
-  #text-description9,
-  #text-description10,
-  #text-description11,
-  #text-description12,
-  #text-description13 {
-    display: none;
-  }
-  
-  
-  
-  .text-button label {
-      font-size: 1rem;
-      color: #121212;
-    }
-    
-    .text-button {
-      position: absolute;
-      top: 5%;
-      left:60%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: rgb(233, 233, 197);
-      width: 25%;
-      height: 4%;
-      border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
-    }
-    
-    .footer {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 30px;
-      width: 100%;
-      height: 8vh;
-      position: fixed;
-      bottom: 0;
-    }
-    
-    .footer button {
-      width: 25%;
-      align-self: center;
-      background-color: rgb(233, 233, 197);
-      padding: 0.55rem 0.55rem;
-      margin: 0 1rem;
-      transition: all 0.5s ease;
-      color: #41403e;
-      font-size: 1rem;
-      letter-spacing: 1px;
-      border: 1px solid black;
-      box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, 0.2);
-      border-radius: 275px 25px 255px 15px/15px 245px 35px 255px;
-    }
-    
-  
-  
-  
-  .footer button a {
-    text-decoration: none;
-    color: #121212;
-  }
-  
-  @media screen and (max-width:280px) {
-    .teacher1, .teacher2, .teacher3, .teacher4, .teacher5, .teacher6, .teacher7, .teacher8, .teacher9, .teacher10, .teacher11, .teacher12, .teacher13{
-      line-height: 1;
-    }
-  }
-  
-  @media screen and (max-width: 375px){
-    h2, p{
+.Issa:hover {
+  cursor: pointer;
+  transition: transform 0.7s ease;
+  transform: scale(1.1);
+  overflow: hidden;
+}
+
+.Ilker {
+  width: 100%;
+  height: 100%;
+  background-image: url(../Pictures/Ilker.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  grid-area: 3/1/4/2;
+  transition: transform 0.7s ease;
+}
+
+.Ilker:hover {
+  cursor: pointer;
+  transition: transform 0.7s ease;
+  transform: scale(1.1);
+  overflow: hidden;
+}
+
+.Mohammed {
+  width: 100%;
+  height: 100%;
+  background-image: url(../Pictures/Mohammed1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  grid-area: 3/2/4/3;
+  transition: transform 0.7s ease;
+}
+
+.Mohammed:hover {
+  cursor: pointer;
+  transition: transform 0.7s ease;
+  transform: scale(1.1);
+  overflow: hidden;
+}
+
+.Federico {
+  width: 100%;
+  height: 100%;
+  background-image: url(../Pictures/Federico2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  grid-area: 3/3/4/4;
+  object-fit: cover;
+  transition: transform 0.7s ease;
+}
+.Federico:hover {
+  cursor: pointer;
+  transition: transform 0.7s ease;
+  transform: scale(1.1);
+  overflow: hidden;
+}
+.Feras {
+  width: 100%;
+  height: 100%;
+  background-image: url(../Pictures/Feras.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  grid-area: 4/1/5/2;
+  transition: transform 0.7s ease;
+}
+
+.Feras:hover {
+  cursor: pointer;
+  transition: transform 0.7s ease;
+  transform: scale(1.1);
+  overflow: hidden;
+}
+
+.Jamilya {
+  width: 100%;
+  height: 100%;
+  background-image: url(../Pictures/Jamiya.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  grid-area: 4/2/5/3;
+  transition: transform 0.7s ease;
+}
+
+.Jamilya:hover {
+  cursor: pointer;
+  transition: transform 0.7s ease;
+  transform: scale(1.1);
+  overflow: hidden;
+}
+
+.Lara {
+  width: 100%;
+  height: 100%;
+  background-image: url(../Pictures/Lara.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  grid-area: 4/3/5/4;
+  transition: transform 0.7s ease;
+}
+
+.Lara:hover {
+  cursor: pointer;
+  transition: transform 0.7s ease;
+  transform: scale(1.1);
+  overflow: hidden;
+}
+
+.Garen {
+  width: 100%;
+  height: 100%;
+  background-image: url(../Pictures/Garen.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  grid-area: 5/1/6/2;
+  transition: transform 0.7s ease;
+}
+
+.Garen:hover {
+  cursor: pointer;
+  transition: transform 0.7s ease;
+  transform: scale(1.1);
+  overflow: hidden;
+}
+
+.Ghassan {
+  width: 100%;
+  height: 100%;
+  background-image: url(../Pictures/Ghassan.jpg);
+  background-repeat: no-repeat;
+  background-position: left center ;
+  background-size: cover;
+  grid-area: 5/3/6/4;
+  transition: transform 0.7s ease;
+}
+
+.Ghassan:hover {
+  cursor: pointer;
+  transition: transform 0.7s ease;
+  transform: scale(1.1);
+  overflow: hidden;
+}
+
+.teacher1 h2::first-letter {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.teacher1 {
+  background-color: #121212;
+  border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
+  color: white;
+  font-size: 1.2rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 5rem;
+  right: -200vw;
+  padding: 50px;
+  gap: 20px;
+  z-index: 0;
+  line-height: 1.35;
+  transition: right 0.5s ease-in-out;
+}
+
+#text-description:checked ~ .teacher1 {
+  right: 0;
+}
+
+.teacher2 h2::first-letter {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.teacher2 {
+  background-color: #121212;
+  border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
+  color: white;
+  font-size: 1.2rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 5rem;
+  left: -200vw;
+  padding: 50px;
+  gap: 20px;
+  z-index: 0;
+  line-height: 1.35;
+
+  transition: left 0.5s ease-in-out;
+}
+
+#text-description1:checked ~ .teacher2 {
+  left: 0;
+}
+
+.teacher3 h2::first-letter {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.teacher3 {
+  background-color: #121212;
+  border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
+  color: white;
+  font-size: 1.2rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 5rem;
+  right: -200vw;
+  padding: 50px;
+  gap: 20px;
+  z-index: 0;
+  line-height: 1.35;
+
+  transition: right 0.5s ease-in-out;
+}
+
+#text-description2:checked ~ .teacher3 {
+  right: 0;
+}
+
+.teacher4 h2::first-letter {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.teacher4 {
+  background-color: #121212;
+  border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
+  color: white;
+  font-size: 1.2rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 5rem;
+  left: -200vw;
+  padding: 50px;
+  gap: 20px;
+  z-index: 0;
+  line-height: 1.35;
+
+  transition: left 0.5s ease-in-out;
+}
+
+#text-description3:checked ~ .teacher4 {
+  left: 0;
+}
+
+.teacher5 h2::first-letter {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.teacher5 {
+  background-color: #121212;
+  border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
+  color: white;
+  font-size: 1.2rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 5rem;
+  right: -300vw;
+  padding: 50px;
+  gap: 20px;
+  z-index: 0;
+  line-height: 1.35;
+
+  transition: right 0.5s ease-in-out;
+}
+
+#text-description4:checked ~ .teacher5 {
+  right: 0;
+}
+
+.teacher6 h2::first-letter {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.teacher6 {
+  background-color: #121212;
+  border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
+  color: white;
+  font-size: 1.2rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 5rem;
+  left: -300vw;
+  padding: 50px;
+  gap: 20px;
+  z-index: 0;
+  line-height: 1.35;
+
+  transition: left 0.5s ease-in-out;
+}
+
+#text-description5:checked ~ .teacher6 {
+  left: 0;
+}
+
+.teacher7 h2::first-letter {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.teacher7 {
+  background-color: #121212;
+  border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
+  color: white;
+  font-size: 1.2rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 5rem;
+  right: -400vw;
+  padding: 50px;
+  gap: 20px;
+  z-index: 0;
+  line-height: 1.35;
+
+  transition: right 0.5s ease-in-out;
+}
+
+#text-description6:checked ~ .teacher7 {
+  right: 0;
+}
+
+.teacher8 h2::first-letter {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.teacher8 {
+  background-color: #121212;
+  border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
+  color: white;
+  font-size: 1.2rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 5rem;
+  left: -400vw;
+  padding: 50px;
+  gap: 20px;
+  z-index: 0;
+  line-height: 1.35;
+
+  transition: left 0.5s ease-in-out;
+}
+
+#text-description7:checked ~ .teacher8 {
+  left: 0;
+}
+
+.teacher9 h2::first-letter {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.teacher9 {
+  background-color: #121212;
+  border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
+  color: white;
+  font-size: 1.2rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 5rem;
+  right: -500vw;
+  padding: 50px;
+  gap: 20px;
+  z-index: 0;
+  line-height: 1.35;
+
+  transition: right 0.5s ease-in-out;
+}
+
+#text-description8:checked ~ .teacher9 {
+  right: 0;
+}
+
+.teacher10 h2::first-letter {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.teacher10 {
+  background-color: #121212;
+  border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
+  color: white;
+  font-size: 1.2rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 5rem;
+  left: -500vw;
+  padding: 50px;
+  gap: 20px;
+  z-index: 0;
+  line-height: 1.35;
+
+  transition: left 0.5s ease-in-out;
+}
+
+#text-description9:checked ~ .teacher10 {
+  left: 0;
+}
+
+.teacher11 h2::first-letter {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.teacher11 {
+  background-color: #121212;
+  border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
+  color: white;
+  font-size: 1.2rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 5rem;
+  right: -600vw;
+  padding: 50px;
+  gap: 20px;
+  z-index: 0;
+  transition: right 0.5s ease-in-out;
+}
+
+#text-description10:checked ~ .teacher11 {
+  right: 0;
+}
+
+.teacher12 h2::first-letter {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.teacher12 {
+  background-color: #121212;
+  border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
+  color: white;
+  font-size: 1.2rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 5rem;
+  left: -600vw;
+  padding: 50px;
+  gap: 20px;
+  z-index: 0;
+  line-height: 1.35;
+
+  transition: left 0.5s ease-in-out;
+}
+
+#text-description11:checked ~ .teacher12 {
+  left: 0;
+}
+
+.teacher13 h2::first-letter {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.teacher13 {
+  background-color: #121212;
+  border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
+  color: white;
+  font-size: 1.2rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 5rem;
+  right: -700vw;
+  padding: 50px;
+  gap: 20px;
+  z-index: 0;
+  line-height: 1.35;
+
+  transition: right 0.5s ease-in-out;
+}
+
+#text-description12:checked ~ .teacher13 {
+  right: 0;
+}
+
+#text-description,
+#text-description1,
+#text-description2,
+#text-description3,
+#text-description4,
+#text-description5,
+#text-description6,
+#text-description7,
+#text-description8,
+#text-description9,
+#text-description10,
+#text-description11,
+#text-description12,
+#text-description13 {
+  display: none;
+}
+
+.text-button label {
   font-size: 1rem;
+  color: #121212;
+}
+
+.text-button {
+  position: absolute;
+  top: 5%;
+  left: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(233, 233, 197);
+  width: 25%;
+  height: 4%;
+  border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  width: 100%;
+  height: 8vh;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer button {
+  width: 25%;
+  align-self: center;
+  background-color: rgb(233, 233, 197);
+  padding: 0.55rem 0.55rem;
+  margin: 0 1rem;
+  transition: all 0.5s ease;
+  color: #41403e;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  border: 1px solid black;
+  box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, 0.2);
+  border-radius: 275px 25px 255px 15px/15px 245px 35px 255px;
+}
+
+.footer button a {
+  text-decoration: none;
+  color: #121212;
+}
+
+@media screen and (min-width:600px) {
+  main {
+    grid-template-columns: repeat(5, 1fr);
+ grid-template-rows:repeat(5, 280px) ;
   }
-  
-  .text-button{
-      padding: .35rem;
-      height: 5%;
-      width: 27%;
+}
+
+@media screen and (max-width: 280px) {
+  .teacher1,
+  .teacher2,
+  .teacher3,
+  .teacher4,
+  .teacher5,
+  .teacher6,
+  .teacher7,
+  .teacher8,
+  .teacher9,
+  .teacher10,
+  .teacher11,
+  .teacher12,
+  .teacher13 {
+    line-height: 1;
   }
-  
-     .footer button{
-      width: 27%;
-      padding: 0.20rem 0.20rem;
-      margin-top: 10px;
+}
+
+@media screen and (max-width: 375px) {
+  h2,
+  p {
+    font-size: 1rem;
   }
+
+  .text-button {
+    padding: 0.35rem;
+    height: 5%;
+    width: 27%;
   }
-  
-  
+
+  .footer button {
+    width: 27%;
+    padding: 0.2rem 0.2rem;
+    margin-top: 10px;
+  }
+}

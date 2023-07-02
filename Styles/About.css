@@ -78,8 +78,23 @@
   }
   
   
+@media screen and (min-width:768px) {
+  .about span{
+    font-size: 1.5rem;
+  }
+}
+.footer button{
+  width: 12%;
+}
+
   @media screen and (max-width:280px) {
-    .about h1, span{
+    .about h1 {
       font-size: .85rem;
     }
+ .about span{
+  font-size: .85rem;
+ }
+ 
+ 
   }
+
