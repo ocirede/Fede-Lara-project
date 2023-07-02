@@ -7,17 +7,27 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <style>
-      
+      *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
  
       body {
+        width: 100%;
+        height: 100vh;
        font-family: 'Comfortaa', cursive;
        font-family: 'Work Sans', sans-serif;
-        margin: 0;
-        padding: 0;
         background-color: rgb(233, 233, 197);
-        
+        margin: auto;
       
       }
+
+      main{
+      margin: auto;
+        }
+
+
       body.dark-mode {
       background-color: #333;
       color: #fff;
@@ -422,6 +432,38 @@
       border-radius: 275px 25px 255px 15px/15px 245px 35px 255px;
   }
 
+  .footer1{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  gap: 30px;
+  width: 100%;
+  height: 8vh;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer1 button{
+  width: 25%;
+    align-self:center;
+    background-color: rgb(233, 233, 197);
+    padding:.55rem .55rem;
+    margin:0 1rem;
+    transition:all .5s ease;
+    color:#41403E;
+    font-size:1rem;
+    letter-spacing:1px;
+    border: 1px solid black;   
+    box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+    border-radius: 275px 25px 255px 15px/15px 245px 35px 255px;
+}
+
+.footer1 button a {
+text-decoration: none;  color: #121212;
+}
+
+
+
 
       /* Responsive Styles */
       @media only screen and (max-width: 600px) {
@@ -443,6 +485,7 @@
     
   </head>
   <body>
+
     <div class="containernav">
       <div class="navbar">
         <div class="navbar-menu">
@@ -458,8 +501,7 @@
         </div>
       </div>
       <main>
-        
-      </main>
+  
     
     </div>
       <div class="containerimg">
@@ -603,9 +645,12 @@
         <a href="#"><i class="fa-brands fa-facebook"></i></a>
         <a href="#"><i class="fa-brands fa-twitter"></i></a>
         <a href="#"><i class="fa-brands fa-instagram"></i></a>
-      </div>
-    </footer>
-    <button class="footer"><a href="http://127.0.0.1:5500/First-page.html">Home</a> </button>
-    <button class="footer"> <a href="http://127.0.0.1:5500/omolara/index.html">Next</a></button>
+       <div class="footer1">
+          <button><a href="http://127.0.0.1:5500/Styles/About.html">Previous</a> </button>
+           <button> <a href="http://127.0.0.1:5500/Styles/Teachers.html">Next</a></button>
+          </div>
+        </main>
+
   </body>
 </html>
+
