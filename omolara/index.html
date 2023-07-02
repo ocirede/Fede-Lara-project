@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web Development Online Courses</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      
+ 
+      body {
+       font-family: 'Comfortaa', cursive;
+       font-family: 'Work Sans', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(233, 233, 197);
+        
+      
+      }
+      body.dark-mode {
+      background-color: #333;
+      color: #fff;
+    }
+
+      .container {
+        
+        text-align: center;
+        padding: 20px;
+        
+        
+        
+      }
+
+      .navbar {
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        color: #333333;
+        transition: background-color 0.3s ease;
+        position: absolute;
+        background-color: rgb(233, 233, 197);
+        top: 0;
+        width: 100%;
+      
+        
+       
+      }
+    
+      .navbar:hover {
+      background-color: beige;
+      }
+
+
+
+       .navbar-menu {
+        display: flex;
+        justify-content: space-around;
+        
+        
+      }
+      .navbar-menu img{
+        height:60px ;
+        border-radius: 30px;
+      }
+
+      .login-bar {
+      display: flex;
+      align-items: center;
+    }
+    .login-bar a {
+      color: #333333;
+      margin-right: 30px;
+      text-decoration: none;
+    }
+      .navbar-item:hover {
+        transform: scale(0.3);
+      }
+    
+     
+
+      .navbar-item {
+        
+        margin-left: 2rem;
+        font-size: 1.5rem;
+        font-weight: bolder;
+       color: #333333;
+        display: flex;
+        text-decoration: none;
+        transition: 0.3s;
+       
+      }
+      .containerimg{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        justify-content: center;
+        margin-left: 5rem;
+        margin-top: 7rem;
+      
+       
+       
+      }
+
+    
+
+      .image-container img {
+        max-width: 25%;
+        border-radius: 2rem;
+        height: auto;
+        opacity: 0.;
+        display: flex;
+        justify-content: center;
+        
+     
+     
+      }
+      .cloud {
+        width: 350px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s, box-shadow 0.3s;
+      }
+     
+
+      .container h1 {
+       margin-bottom: 10rem;
+        font-size: 3.5rem;
+        color:#333333;
+        text-shadow: 4px 4px 4px rgba(0, 0, 0, 3);
+        transition: transform 0.3s ease;
+        
+       
+       
+      }
+      .container h1:hover {
+        transform: scale(1.2);
+      }
+
+      .container p {
+        font-size: 2rem;
+       
+
+        font-weight: bolder;
+        color: #666666;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        padding-top: 10rem;
+        
+      }
+
+      .button-container {
+        position: absolute;
+       
+       
+        transition: transform 0.3s ease;
+        
+        right: 10px;
+      }
+    
+    
+
+      .button {
+        display: inline-block;
+        width: 150px;
+        height: 50px;
+        padding-top: 20px;
+        padding-left: 15px;
+        color: rgb(100, 94, 94);
+        font-size: 1rem;
+        text-align: center;
+        line-height: 50px;
+        text-decoration: none;
+        font-weight: bolder;
+        font-style: oblique;
+        border-radius: 5px;
+        box-shadow: 4px 2px 6px rgba(0, 0, 0, 1);
+        transition: transform 0.3s ease;
+        
+      }
+      .button-container:hover {
+        transform: scale(1.2);
+      }
+
+      .social-icons {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+       
+        gap: 1.5rem;
+      }
+
+      .social-icons a {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        padding-bottom: 2px;
+        color: rgb(105, 105, 96);
+        font-size: 2rem;
+        text-align: center;
+        line-height: 30px;
+        text-decoration: none;
+        margin-left: 10px;
+        transition: ease-out 1s;
+      }
+
+      .social-icons a:hover{
+        transform: scale(0.3);
+      }
+      .footer {
+      background-color: #f5f5f5;
+      color: #333333;
+      padding: 20px;
+      text-align: center;
+    }
+    .footer p {
+      margin: 0;
+    }
+    .footer .contact-info {
+      margin-bottom: 10px;
+    }
+      .immg{
+        display: flex;
+        justify-content:center;
+        
+      
+
+      }
+      .immg2 {
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+       margin-right: 30px;
+       padding-bottom: 10px;
+      }
+      .image-container img{
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+     
+      
+
+      .immg3{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+       margin-right: 30px;
+      }
+      .img6  {
+        display: flex;
+        justify-content: center;
+       
+        
+      
+       
+      }
+
+      .img6 img{
+        width: 200px;
+        gap: 10px;
+      }
+.worldimg{
+  margin-top: 10rem;
+  width: 60%;
+  margin-left: 7rem;
+  
+
+ 
+
+}
+
+.prog{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+  gap: 5px;
+ 
+        
+  
+ 
+}
+.prog img{
+  width: 500px;
+  display: flex;
+  justify-content: flex-end;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-right: 20px;
+  margin-bottom: 10rem;
+}
+
+.prog h2{
+  font-size: 2rem;
+  color:#333333;
+  text-align: center;
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
+.container3 {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      border: 1px solid #ccc;
+      padding: 10px;
+      transition: background-color 0.3s ease;
+      border: 1px solid grey;
+    }
+    .container3:hover{
+      background-color: #ccc;
+    }
+    .column {
+      flex-basis: 33.33%;
+      padding: 20px;
+    }
+    .column h2 {
+      color: #333;
+    }
+    .column p {
+      line-height: 1.6;
+    }
+    .container6{
+      display: flex;
+      justify-content: flex-end;
+      width: 80%;
+      max-width: 800px;
+      margin: 0 auto;
+      border: 1px solid #ccc;
+      padding: 10px;
+      transition: background-color 0.3s ease;
+      border: 1px solid grey;
+      margin-top: 20px;
+
+    }
+
+
+        .worldimg img {
+        max-width: 100%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .worldimg {
+    display: grid;
+  grid-template-rows: 1fr ;
+  margin-bottom: 50px;
+  }
+  .sidecolumn {
+      display: flex;
+      justify-content: flex-end;
+      border: 1px solid #ccc;
+      padding: 20px;
+    }
+
+    .text {
+      flex: 1;
+      margin-left: 20px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+        
+        .h2{
+          display: flex;
+          justify-content:flex-end;
+          
+        }
+        .container-corevalues {
+      background-color: #f5f5f5;
+      padding: 20px;
+    }
+    .core-values {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 20px;
+    }
+    .core-value {
+      border: 2px solid #ccc;
+      padding: 10px;
+      transition: background-color 0.3s ease;
+      }
+
+      .core-value:hover {
+      background-color: #ccc;
+    }
+
+.containerr {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 20px;
+    }
+
+    .reason {
+      border: 2px solid #ccc;
+      padding: 20px;
+      transition: transform 0.3s;
+    }
+
+    .reason:hover {
+      transform: scale(1.05);
+      background-color: #ccc;
+    }
+
+      /* Responsive Styles */
+      @media only screen and (max-width: 600px) {
+        .navbar {
+          flex-direction: column;
+        }
+
+        .navbar-item {
+          margin-top: 10px;
+          margin-left: 0;
+        }
+
+        .button-container {
+          position: static;
+          margin-top: 20px;
+        }
+      }
+    </style>
+    
+  </head>
+  <body>
+    <div class="containernav">
+      <div class="navbar">
+        <div class="navbar-menu">
+          <img src="images/131146101_360.png" alt="">
+          <a class="navbar-item" href="#">Tech Tips</a>
+          <a class="navbar-item" href="#">Sudent Sucess</a>
+          <a class="navbar-item" href="#">Career Guides</a>
+          <a class="navbar-item" href="#">Tech Trends</a>
+        </div>
+        <div class="login-bar">
+          <a href="#">Login</a>
+          <a href="#">Sign Up</a>
+        </div>
+      </div>
+      <main>
+        
+      </main>
+    
+    </div>
+      <div class="containerimg">
+        <div>
+          <img class="cloud" src="images/smartphone-with-user-interface-concept.jpg" alt="">
+        </div>
+    
+        <div class="image-container immg2">
+          <img src="images/medium-shot-woman-working-laptop.jpg" alt="">
+        </div>
+        <div class="image-container">
+            <img src="images/person-front-computer-working-html.jpg" alt="">
+        </div>
+        <div class="image-container immg">
+          <img src="images/html-css-collage-concept-with-person.jpg" alt="">
+        </div>
+      </div>
+
+     
+
+        <div class="container">
+          <h1>Web Development Online Courses</h1>
+          <div class="image-container img6">
+            <img src="images/html_186320.png" alt="">
+            <img src="images/java-script_1199124.png" alt="">
+            <img src="images/css-3_732190.png" alt="">
+          </div>
+          
+          <p>
+            Explore a wide range of web development online courses to enhance
+            your coding skills and build stunning websites
+          </p>
+  
+          
+          
+        </div>
+      </div>
+    </div>
+    <main>
+      <div class="container3">
+        <div class="column">
+          <h2>Comprehensive Curriculum</h2>
+          <p>A high-quality web development online course covers a wide range of topics and technologies essential for building modern and responsive websites. From foundational concepts such as HTML, CSS, and JavaScript to advanced frameworks like React, Angular, or Node.js, these courses provide a comprehensive curriculum designed to equip learners with a diverse set of skills.</p>
+        </div>
+        <div class="column">
+          <h2>Hands-On Learning</h2>
+          <p>One of the key advantages of online courses is the emphasis on hands-on learning. Through practical exercises, coding challenges, and real-world projects, students gain practical experience in building functional websites from scratch. They learn how to design user-friendly interfaces, implement responsive layouts, optimize website performance, and debug and troubleshoot code.</p>
+        </div>
+        <div class="column">
+          <h2>Expert Guidance</h2>
+          <p>Web development online courses are often led by industry experts who bring their wealth of knowledge and experience to the virtual classroom. Instructors guide students through the course materials, providing explanations, insights, and best practices. They offer personalized feedback on assignments and projects, helping students refine their skills and address any challenges they may encounter.</p>
+        </div>
+      </div>
+    </main>
+    
+
+    <div class="worldimg">
+     
+       
+      <div class="sidecolumn">
+      
+        <div class="text">
+          <img src="images/information-technology-coding-connection-programming.jpg" alt="">
+          <h2>Web Development Online Course</h2>
+          <p>A web development online course provides individuals with the knowledge and skills to create professional websites and web applications. It covers various technologies, frameworks, and best practices used in the industry.</p>
+          <p>One of the key advantages of an online course is the flexibility it offers. Students can access the course materials and lectures at their own pace and convenience. They can learn from anywhere, eliminating the need to attend physical classes or adhere to rigid schedules. This flexibility makes it ideal for working professionals, students, or anyone with other commitments.</p>
+        </div>
+    </div>
+   
+    </div>
+    </div>
+    <section>
+      <div class="containerr">
+        <div class="reason">
+          <h2>Endless Career Opportunities</h2>
+          <p>Mastering web development opens up a world of career opportunities. From working as a freelance developer to joining a tech company, there is a high demand for skilled web developers in various industries.</p>
+        </div>
+        <div class="reason">
+          <h2>Creative Outlet</h2>
+          <p>Web development allows you to unleash your creativity. You have the freedom to design and build visually appealing websites, create interactive user experiences, and experiment with different design and development techniques.</p>
+        </div>
+        <div class="reason">
+          <h2>Continuous Learning</h2>
+          <p>Web development is a constantly evolving field. Mastering it means embracing a lifelong learning journey. You'll stay updated with the latest technologies, frameworks, and best practices, keeping your skills relevant in a rapidly changing industry.</p>
+        </div>
+        <div class="reason">
+          <h2>Flexibility and Remote Work</h2>
+          <p>Web development offers flexibility and the potential for remote work. As long as you have a computer and internet connection, you can work from anywhere. This flexibility allows for a better work-life balance and the freedom to pursue a location-independent career.</p>
+        </div>
+      </div>
+
+      <div class="prog">
+        <h2>
+          Mastering Web Development: Your Path to Digital Proficiency
+        </h2>
+        
+<img src="images/undraw_Programming_re_kg9v.png" alt="">
+
+      </div>
+    
+
+    </section>
+    <section>
+      <div class="container-corevalues">
+        <div class="core-values">
+          <div class="core-value">
+            <h3>Hands-on Experience</h3>
+            <p>Gain practical, real-world experience by working on web development projects and assignments.</p>
+          </div>
+          <div class="core-value">
+            <h3>Expert Instructors</h3>
+            <p>Learn from experienced web developers who are industry professionals and passionate about teaching.</p>
+          </div>
+          <div class="core-value">
+            <h3>Comprehensive Curriculum</h3>
+            <p>Explore a comprehensive curriculum that covers essential web development concepts, languages, and frameworks.</p>
+          </div>
+          <div class="core-value">
+            <h3>Flexible Learning</h3>
+            <p>Study at your own pace with flexible online learning resources and access to course materials 24/7.</p>
+          </div>
+          <div class="core-value">
+            <h3>Supportive Community</h3>
+            <p>Connect with a supportive community of fellow learners and instructors, fostering collaboration and growth.</p>
+          </div>
+          <div class="core-value">
+            <h3>Career Opportunities</h3>
+            <p>Prepare for a rewarding career in web development with guidance on job placement and industry networking.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer">
+        <p>&copy; 2023 Web Development Course. All rights reserved.</p>
+        <div class="contact-info">
+          <p>Email: info@webdevcourse.com</p>
+          <p>Phone: +1234567890</p>
+        </div>
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Development Online Course</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(233, 233, 197);
+  
+   
+
+    }
+   
+    
+    .container {
+      max-width: 1000px;
+      height: 900px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     
+    }
+    
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+    
+    p {
+      color: #666;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+      height: 400px;
+    }
+    
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    th {
+      background-color: #f2f2f2;
+    }
+    
+    button {
+      background-color: #5f5959;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 4px;
+    }
+    
+    button:hover {
+      background-color: #333;
+    }
+  
+  
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Method of Payment</h2>
+    <p>Please select your preferred method of payment:</p>
+  
+    <form>
+      <input type="radio" id="creditCard" name="paymentMethod" value="creditCard">
+      <label for="creditCard">Credit Card</label>
+    
+      <input type="radio" id="paypal" name="paymentMethod" value="paypal">
+      <label for="paypal">PayPal</label>
+    
+      <input type="radio" id="bankTransfer" name="paymentMethod" value="bankTransfer">
+      <label for="bankTransfer">Bank Transfer</label>
+    </form>
+  
+    <h2>Course Cost</h2>
+    <table>
+      <tr>
+        <th>Course</th>
+        <th>Cost</th>
+      </tr>
+      <tr>
+        <td>Web Development Fundamentals</td>
+        <td>$99</td>
+      </tr>
+      <br>
+      <tr>
+        <td>Frontend Development with HTML, CSS, and JavaScript</td>
+        <td>$149</td>
+      </tr>
+     
+      <tr>
+        <td>Backend Development with Node.js</td>
+        <td>$199</td>
+      </tr>
+      <tr>
+        <td>Full-Stack Web Development</td>
+        <td>$249</td>
+      </tr>
+    </table>
+  
+    <button type="button">Proceed to Payment</button>
+
+   
+  </div>
+
+</body>
+</html>
