@@ -9,6 +9,9 @@
   font-size: 15px;
 }
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: "Comfortaa", cursive;
   font-family: "Work Sans", sans-serif;
   width: 100%;
@@ -20,9 +23,10 @@ body {
 }
 body header {
   position: fixed;
+  top: 0;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   width: 100%;
   height: 5.5rem;
   background-color: rgb(233, 233, 197);
@@ -63,6 +67,39 @@ header input:checked ~ label .fa-x {
   display: block;
 }
 
+.header-767px {
+  position: fixed;
+  top: 0;
+  padding: 20px; 
+  width: 100%;
+  height: 5.5rem;
+  background-color: rgb(233, 233, 197);
+  padding: 0.5rem;
+  border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
+  border: solid #121212;
+  box-shadow: 20px 20px 70px -20px beige;
+}
+
+.header-767px nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-right: 60px;
+}
+
+.header-767px nav ul li {
+  list-style-type: none;
+}
+.header-767px nav ul li a {
+  text-decoration: none;
+  color: #121212;
+  font-size: 1.25rem;
+}
+
+ .header-767px {
+  display: none;
+}
+
 main {
   display: flex;
   align-items: center;
@@ -78,19 +115,16 @@ main {
   justify-content: center;
   align-items: center;
   gap: 20px;
- color: white;
+  color: white;
   width: 85%;
   padding: 15px;
   height: 70vh;
-  margin: auto;
   box-shadow: 1px 5px 16px 0px beige;
- border-radius: 255px 55px 265px 25px/55px 25px 55px 25px;
-
+  border-radius: 255px 55px 265px 25px/55px 25px 55px 25px;
 }
-.triangle p{
+.triangle p {
   line-height: 1.35;
-  font-size: .70rem;
-
+  font-size: 0.7rem;
 }
 .info-menu {
   position: fixed;
@@ -150,7 +184,7 @@ header input:checked ~ .info-menu {
   text-orientation: upright;
   white-space: nowrap;
   animation: cascade-animation 6s 1s ease-in-out infinite;
-  
+
   top: 20%;
   left: 60%;
 }
@@ -170,7 +204,7 @@ header input:checked ~ .info-menu {
   writing-mode: vertical-rl;
   text-orientation: upright;
   white-space: nowrap;
-  animation: cascade-animation 6s 0.50s ease-in-out infinite;
+  animation: cascade-animation 6s 0.5s ease-in-out infinite;
   top: 20%;
   left: 30%;
 }
@@ -220,8 +254,38 @@ footer {
   }
 }
 
-@media screen and (max-width:280px) {
+@media screen and (min-width: 1024px){
   .triangle p{
-    font-size: .55rem;
+    font-size: 6rem;
+    line-height: 1.5;
   }
 }
+
+@media screen and (min-width: 768px) {
+
+.header{
+  display: none;
+}
+
+.header-767px{
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.triangle h2{
+  font-size: 2.5rem;
+}
+
+.triangle p{
+  font-size: 1.25rem;
+}
+
+}
+
+@media screen and (max-width: 280px) {
+  .triangle p {
+    font-size: 0.55rem;
+  }
+} 
