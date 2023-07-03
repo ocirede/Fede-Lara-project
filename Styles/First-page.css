@@ -12,8 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Comfortaa", cursive;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   width: 100%;
   height: 100%;
   background-color: #121212;
@@ -283,6 +282,13 @@ footer {
 }
 
 }
+
+@media screen and (max-width: 375px){
+  .triangle h2{
+    font-size: 1.05rem;
+  }
+}
+
 
 @media screen and (max-width: 280px) {
   .triangle p {
