@@ -788,7 +788,7 @@ width: 50%;
 @media screen and (min-width:600px) {
   main {
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows:repeat(5, 280px) ;
+    grid-template-rows:repeat(5, 240px) ;
   }
 
   .footer button{
