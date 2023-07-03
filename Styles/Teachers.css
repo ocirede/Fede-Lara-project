@@ -782,8 +782,13 @@ width: 50%;
 }
 
 
+.header-teachers{
+height: 7rem;
+}
 
-
+.header-teachers h1{
+  font-size: 3rem;
+}
 
 }
 @media screen and (min-width:600px) {
