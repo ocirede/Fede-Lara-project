@@ -9,6 +9,7 @@
   font-size: 15px;
 }
 body {
+  font-family: 'Work Sans', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -687,8 +688,8 @@ main {
 
 .text-button {
   position: absolute;
-  top: 73%;
-  left: 60%;
+  top: 79%;
+  left: 71%;
   display: flex;
   align-items: center;
   justify-content: center;
