@@ -687,7 +687,7 @@ main {
 
 .text-button {
   position: absolute;
-  top: 5%;
+  top: 70%;
   left: 60%;
   display: flex;
   align-items: center;
@@ -696,6 +696,7 @@ main {
   width: 25%;
   height: 4%;
   border-radius: 275px 25px 245px 25px/25px 245px 25px 275px;
+  z-index: 10;
 }
 
 .footer {
@@ -707,6 +708,7 @@ main {
   height: 8vh;
   position: fixed;
   bottom: 0;
+
 }
 
 .footer button {
@@ -727,6 +729,8 @@ main {
 .footer button a {
   text-decoration: none;
   color: #121212;
+  z-index: 0;
+
 }
 
 
